@@ -1,0 +1,23 @@
+fixtures:
+  repositories:
+    apache: "git://github.com/theforeman/puppet-apache.git"
+    concat: "git://github.com/puppetlabs/puppetlabs-concat.git"
+    concat_native: "git://github.com/theforeman/puppet-concat.git"
+    dhcp: "git://github.com/theforeman/puppet-dhcp.git"
+    firewall: "git://github.com/puppetlabs/puppetlabs-firewall.git"
+    foreman: "git://github.com/theforeman/puppet-foreman.git"
+    foreman_proxy: "git://github.com/theforeman/puppet-foreman_proxy.git"
+    git: "git://github.com/theforeman/puppet-git.git"
+    inifile: 'git://github.com/cprice-puppet/puppetlabs-inifile.git'
+    managed_interface: "git://github.com/ekohl/puppet-managed_interface.git"
+    passenger: "git://github.com/theforeman/puppet-passenger.git"
+    postgresql:
+      repo: 'git://github.com/puppetlabs/puppet-postgresql.git'
+      ref: '1d416a6c1542f12c2b22f394a3f8cc7a26370152'
+    puppet: "git://github.com/theforeman/puppet-puppet.git"
+    puppetdb: "git://github.com/puppetlabs/puppetlabs-puppetdb.git"
+    stdlib: "git://github.com/puppetlabs/puppetlabs-stdlib.git"
+    tftp: "git://github.com/theforeman/puppet-tftp.git"
+    xinetd: "git://github.com/puppetlabs/puppetlabs-xinetd.git"
+  symlinks:
+    profile_foreman: "#{source_dir}"
